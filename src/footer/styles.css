@@ -1,0 +1,167 @@
+.footer {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    bottom: -25%;
+    border-radius: 25%;
+}
+#next {
+    position: absolute;
+    right: 10%;
+    bottom: 10px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#back {
+    position: absolute;
+    left: 10%;
+    bottom: 10px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.fa-arrow-circle-right,
+.fa-arrow-circle-left {
+    color: white;
+
+    font-size: 70px !important;
+}
+
+#next:focus {
+    outline: none;
+}
+#next:active {
+    opacity: 0.5;
+}
+#back:focus {
+    outline: none;
+}
+#back:active {
+    opacity: 0.5;
+}
+
+.footer-parent {
+    width: 100%;
+    position: relative;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chart1:hover {
+    left: -20px;
+    background: black !important;
+}
+
+#chart2:hover {
+    right: -20px;
+    background: black !important;
+}
+#chart3:hover {
+    right: -20px;
+    background: black !important;
+}
+#chart4:hover {
+    left: -20px;
+    background: black !important;
+}
+#chart1:focus {
+    outline: none;
+}
+
+#chart2:focus {
+    outline: none;
+}
+#chart3:focus {
+    outline: none;
+}
+#chart4:focus {
+    outline: none;
+}
+#chart1:active {
+    opacity: 0.5;
+}
+
+#chart2:active {
+    opacity: 0.5;
+}
+#chart3:active {
+    opacity: 0.5;
+}
+#chart4:active {
+    opacity: 0.5;
+}
+#chart1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+    width: 50%;
+    height: 50%;
+    border: 5px solid grey;
+    border-radius: 100% 0 0 0;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+#chart2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+    width: 50%;
+    height: 50%;
+    border: 5px solid grey;
+
+    border-radius: 0 100% 0 0;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+#chart3 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+    width: 50%;
+    height: 50%;
+    border: 5px solid grey;
+    /* Standard syntax */
+    border-radius: 0 0 100% 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+#chart4 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+    width: 50%;
+    height: 50%;
+    border: 5px solid grey;
+    /* Standard syntax */
+    border-radius: 0 0 0 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}

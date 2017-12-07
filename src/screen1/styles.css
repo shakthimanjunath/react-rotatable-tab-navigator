@@ -1,0 +1,8 @@
+.screen-1-parent {
+    width: 100%;
+    height: 100%;
+    background: black;
+    /*linear-gradient(#070000, #4c0001, #070000);*/
+    color: white;
+    font-size: 100px;
+}
